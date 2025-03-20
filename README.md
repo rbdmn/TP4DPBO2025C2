@@ -30,7 +30,7 @@ Lalu isi atribut pada class mahasiswa diantaranya adalah:
 - prodi (atribut tambahan sesuai spesifikasi)
 
 # Alur Program
-Untuk Alurnya ialah: 
+Untuk Alurnya seperti CRUD pada umumnya, yaitu: 
 - User memasukkan data mahasiswa → klik "Add" → data masuk ke tabel.
 - User mengklik tabel → data muncul di form → tombol "Add" berubah jadi "Update".
 - User mengedit data → klik "Update" → data diperbarui di tabel.
