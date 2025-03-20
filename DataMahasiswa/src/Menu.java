@@ -22,13 +22,17 @@ public class Menu extends JFrame{
         window.setContentPane(window.mainPanel);
 
         // ubah warna background
-        window.getContentPane().setBackground(Color.white);
+        window.getContentPane().setBackground(new Color(0, 60, 0));
+
+        window.setForeground(Color.white);
 
         // tampilkan window
         window.setVisible(true);
 
         // agar program ikut berhenti saat window diclose
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
     }
 
     // index baris yang diklik
@@ -53,21 +57,27 @@ public class Menu extends JFrame{
     private JRadioButton ilmuKomputerRadioButton;
     private JTextField prodiField;
 
+
+
     // constructor
     public Menu() {
         // inisialisasi listMahasiswa
         listMahasiswa = new ArrayList<>();
 
+        nimLabel.setForeground(Color.white);
+        namaLabel.setForeground(Color.white);
+        jenisKelaminLabel.setForeground(Color.white);
+        prodiLabel.setForeground(Color.white);
 
         // isi listMahasiswa
         populateList();
-
-
+        //asdsda
         // isi tabel mahasiswa
         mahasiswaTable.setModel(setTable());
 
         // ubah styling title
         titleLabel.setFont(titleLabel.getFont().deriveFont(Font.BOLD, 20f));
+        titleLabel.setForeground(Color.white);
 
         // atur isi combo box
         String[] jenisKelaminData = {"", "Laki-Laki", "Perempuan"};
