@@ -18,9 +18,9 @@ Lalu ada yang namanya mainPanel. Nah mainPanel ini berfungsi sebagai wadah utama
 | `JTextField nimField`  | Input NIM                  |
 | `JTextField namaField`        | Input Nama     |
 | `JComboBox jenisKelaminComboBox	`        | Pilihan jenis kelamin   |
-| `JTextField prodiField	`        | Pilihan prodi: Ilmu Komputer                        |
-| `JRadioButton ilmuKomputerRadioButton	`        | Pilihan prodi: Pendidikan Ilmu Komputer    |
-| `JRadioButton pendidikanIlmuKomputerRadioButton	`         | Merk dari baju                      |
+| `JTextField prodiField	`        | Input prodi (radio button)                        |
+| `JRadioButton ilmuKomputerRadioButton	`        | Pilihan prodi: Ilmu Komputer    |
+| `JRadioButton pendidikanIlmuKomputerRadioButton	`         | Pilihan prodi: Pendidikan Ilmu Komputer                      |
 
 ### **3) Tabel Mahasiswa**
 Lalu isi atribut pada class mahasiswa diantaranya adalah:
