@@ -4,7 +4,7 @@
 # **Desain Program**
 Pada Tugas Praktikum ke 4 kali ini yaitu mencoba untuk membuat aplikasi GUI menggunakan Intellij IDEA (Community Version) dengan bahasa Java Swing. Berikut desain dan komponen utamanya pada program ini:
 
-## **Struktur GUI**
+### **Struktur GUI**
 Aplikasi ini menggunakan Java Swing dengan tampilan utama berupa JFrame yang berfungsi sebagai jendela utama. Isinya seperti:
 - Ukuran: 1024x768 (Ukuran windownya dibesarkan supaya lebih jelas dan kelihatan semua datanya)
 - Warna latar: Hijau tua (Hijau tua meresemblance dengan KEMAKOM)
@@ -12,7 +12,7 @@ Aplikasi ini menggunakan Java Swing dengan tampilan utama berupa JFrame yang ber
 
 Lalu ada yang namanya mainPanel. Nah mainPanel ini berfungsi sebagai wadah utama untuk semua komponen GUI. Panel ini berisi form input, tabel data, serta tombol aksi yang digunakan untuk mengelola data mahasiswa.
 
-## **Atribut:**
+### **Atribut:**
 | Komponen       | Deskripsi                              |
 |----------------|----------------------------------------|
 | `JTextField nimField`  | Input NIM                  |
